@@ -1,22 +1,16 @@
-import React, { useState } from 'react'
-import First from './components/First';
-import Second from './components/Second';
-import Third from './components/Third';
-import Fourth from './components/Fourth';
+import React, { Component, useState } from 'react'
+import Greet from './components/Greet';
 
-const App = () => {
-    let [count, setCount] = useState(0);
-    const handleCount = () => {
-        setCount((count) => count = count + 1);
+
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <Greet></Greet>
+
+            </div>
+        );
     }
-    return (
-        <div>
-            <First />
-            <Second />
-            <Third />
-            <Fourth />
-        </div>
-    )
 }
 
-export default App
+export default App;
