@@ -13,9 +13,11 @@ class App extends Component {
                 {/* <Greet> </Greet> */}
                 {/* <Welcome> </Welcome > */}
                 {/* <Hello /> */}
-                <Preet name="Mayur" />
-                <Preet name="Monu" />
-                <Preet name="Milind" />
+                <Preet name="Mayur" heroName="Batman" />
+                <p>this is children props</p>
+                <Preet name="Monu" heroName="Spiderman" />
+                <button>Action</button>
+                <Preet name="Milind" heroName="Superman" />
             </div >
         );
     }
