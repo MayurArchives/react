@@ -1,5 +1,19 @@
+// import React from "react";
+// const Desfun = ({ name, heroName }) => {
+
+//     return (
+//         <div>
+//             <h1 >
+//                 Hello {name} a.k.a {heroName}
+//             </h1>
+//         </div>
+//     )
+// }
+// export default Desfun
+
 import React from "react";
-const Desfun = ({ name, heroName }) => {
+const Desfun = props => {
+    const { name, heroName } = props
 
     return (
         <div>
@@ -10,3 +24,4 @@ const Desfun = ({ name, heroName }) => {
     )
 }
 export default Desfun
+
