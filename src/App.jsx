@@ -8,6 +8,7 @@ import React, { Component } from 'react'
 import Counter from './components/Counter';
 import Desfun from './components/hello';
 import Welcome1 from './components/Welcome1';
+import FunctionClick from './components/FunctionClick';
 
 
 class App extends Component {
@@ -30,7 +31,8 @@ class App extends Component {
                 {/* <First/> */}
                 {/* <Counter /> */}
                 {/* <Desfun name="Mayur" heroName="spiderman" /> */}
-                <Welcome1 name="milind" heroName="batman" />
+                {/* <Welcome1 name="milind" heroName="batman" /> */}
+                <FunctionClick />
 
 
 
