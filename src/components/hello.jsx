@@ -1,9 +1,12 @@
 import React from "react";
-const Hello = () => {
+const Desfun = ({ name, heroName }) => {
+
     return (
         <div>
-            <h1 >Hello Mayur </h1>
+            <h1 >
+                Hello {name} a.k.a {heroName}
+            </h1>
         </div>
     )
 }
-export default Hello
+export default Desfun

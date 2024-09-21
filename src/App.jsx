@@ -4,7 +4,9 @@ import React, { Component } from 'react'
 // import Welcome from './components/Welcome';
 // import Hello from './components/hello';
 // import Preet from './components/preet';
-import First from './components/First';
+// import First from './components/first';
+import Counter from './components/Counter';
+import Desfun from './components/hello';
 
 
 class App extends Component {
@@ -24,7 +26,10 @@ class App extends Component {
                 <Welcome name="Mayur" heroName="Batman" />
                 <Welcome name="Monu" heroName="Spiderman" />
                 <Welcome name="Milind" heroName="Superman" /> */}
-                <First />
+                {/* <First/> */}
+                {/* <Counter /> */}
+                <Desfun name="Mayur" heroName="spiderman" />
+
 
 
 
