@@ -11,6 +11,7 @@ import Welcome1 from './components/Welcome1';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Usergreeting from './components/Usergreeting';
+import NameList from './components/NameList';
 
 
 class App extends Component {
@@ -36,7 +37,8 @@ class App extends Component {
                 {/* <Welcome1 name="milind" heroName="batman" /> */}
                 {/* <FunctionClick /> */}
                 {/* <ClassClick /> */}
-                <Usergreeting />
+                {/* <Usergreeting /> */}
+                <NameList />
 
 
 
