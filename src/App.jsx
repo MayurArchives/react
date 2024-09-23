@@ -10,6 +10,7 @@ import Desfun from './components/hello';
 import Welcome1 from './components/Welcome1';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import Usergreeting from './components/Usergreeting';
 
 
 class App extends Component {
@@ -34,7 +35,8 @@ class App extends Component {
                 {/* <Desfun name="Mayur" heroName="spiderman" /> */}
                 {/* <Welcome1 name="milind" heroName="batman" /> */}
                 {/* <FunctionClick /> */}
-                <ClassClick />
+                {/* <ClassClick /> */}
+                <Usergreeting />
 
 
 
