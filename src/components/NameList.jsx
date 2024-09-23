@@ -1,9 +1,9 @@
 import React from 'react'
 
 function NameList() {
-    const names = ['Mayur', 'Aish', 'Milind', 'Ujju']
-    const nameList = names.map(name => <h2>{name}</h2>)
-    return <div> {nameList} </div>
+    const names = ['Mayur', 'Aish', 'Milind', 'Ujju', 'Mayur']
+    const nameList = names.map((name, index) => <h2 key={index}>{index} {name}</h2>)
+    return <div> {nameList} </div>;
 }
 
-export default NameList
+export default NameList;
