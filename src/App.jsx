@@ -12,6 +12,7 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Usergreeting from './components/Usergreeting';
 import NameList from './components/NameList';
+import BasicComponent from './components/BasicComponent';
 
 
 class App extends Component {
@@ -38,7 +39,8 @@ class App extends Component {
                 {/* <FunctionClick /> */}
                 {/* <ClassClick /> */}
                 {/* <Usergreeting /> */}
-                <NameList />
+                {/* <NameList /> */}
+                <BasicComponent />
 
 
 
