@@ -14,6 +14,7 @@ import Usergreeting from './components/Usergreeting';
 import NameList from './components/NameList';
 import BasicComponent from './components/BasicComponent';
 import MyComponent from './components/MyComponent';
+import ReactFragment from './components/ReactFragment';
 
 
 
@@ -43,7 +44,8 @@ class App extends Component {
                 {/* <Usergreeting /> */}
                 {/* <NameList /> */}
                 {/* <BasicComponent /> */}
-                <MyComponent />
+                {/* <MyComponent /> */}
+                <ReactFragment />
 
 
 
