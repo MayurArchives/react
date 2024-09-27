@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PureComponent } from 'react'
 // import Greet from './components/Greet';
 // import welcome from './components/Welcome';
 // import Welcome from './components/Welcome';
@@ -16,6 +16,7 @@ import BasicComponent from './components/BasicComponent';
 import MyComponent from './components/MyComponent';
 import ReactFragment from './components/ReactFragment';
 import RegularComponent from './components/RegularComponent';
+import pureComponent from './components/PureComponent';
 
 
 
@@ -48,6 +49,7 @@ class App extends Component {
                 {/* <MyComponent /> */}
                 {/* <ReactFragment /> */}
                 <RegularComponent />
+                <PureComponent />
 
 
 
