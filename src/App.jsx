@@ -16,7 +16,8 @@ import BasicComponent from './components/BasicComponent';
 import MyComponent from './components/MyComponent';
 import ReactFragment from './components/ReactFragment';
 import RegularComponent from './components/RegularComponent';
-import pureComponent from './components/PureComponent';
+import MypureComponent from './components/MyPureComponent';
+import Memo from './components/Memo';
 
 
 
@@ -48,8 +49,9 @@ class App extends Component {
                 {/* <BasicComponent /> */}
                 {/* <MyComponent /> */}
                 {/* <ReactFragment /> */}
-                <RegularComponent />
-                <PureComponent />
+                {/* <RegularComponent />
+                <MyPureComponent /> */}
+                <Memo />
 
 
 
