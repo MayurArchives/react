@@ -18,6 +18,8 @@ import ReactFragment from './components/ReactFragment';
 import RegularComponent from './components/RegularComponent';
 import MypureComponent from './components/MyPureComponent';
 import Memo from './components/Memo';
+import Portals from './components/Portals';
+import PortalsApp from './components/PortalsApp';
 
 
 
@@ -51,7 +53,10 @@ class App extends Component {
                 {/* <ReactFragment /> */}
                 {/* <RegularComponent />
                 <MyPureComponent /> */}
-                <Memo />
+                {/* <Memo /> */}
+                <Portals />
+                <PortalsApp />
+
 
 
 
