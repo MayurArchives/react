@@ -4,22 +4,25 @@ import React, { Component, PureComponent } from 'react'
 // import Welcome from './components/Welcome';
 // import Hello from './components/hello';
 // import Preet from './components/preet';
-// import First from './components/first';
-import Counter from './components/Counter';
-import Desfun from './components/hello';
-import Welcome1 from './components/Welcome1';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import Usergreeting from './components/Usergreeting';
-import NameList from './components/NameList';
-import BasicComponent from './components/BasicComponent';
-import MyComponent from './components/MyComponent';
-import ReactFragment from './components/ReactFragment';
-import RegularComponent from './components/RegularComponent';
-import MypureComponent from './components/MyPureComponent';
-import Memo from './components/Memo';
-import Portals from './components/Portals';
-import PortalsApp from './components/PortalsApp';
+// // import First from './components/first';
+// import Counter from './components/Counter';
+// import Desfun from './components/hello';
+// import Welcome1 from './components/Welcome1';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import Usergreeting from './components/Usergreeting';
+// import NameList from './components/NameList';
+// import BasicComponent from './components/BasicComponent';
+// import MyComponent from './components/MyComponent';
+// import ReactFragment from './components/ReactFragment';
+// import RegularComponent from './components/RegularComponent';
+// import MypureComponent from './components/MyPureComponent';
+// import Memo from './components/Memo';
+// import Portals from './components/Portals';
+// import PortalsApp from './components/PortalsApp';
+// import SimpleComp from './components/SimpleComponent';
+import RoApp from './components/RoApp';
+// import MyContext from './components/MyContext';
 
 
 
@@ -54,8 +57,15 @@ class App extends Component {
                 {/* <RegularComponent />
                 <MyPureComponent /> */}
                 {/* <Memo /> */}
-                <Portals />
-                <PortalsApp />
+                {/* <Portals />
+                <PortalsApp /> */}
+                {/* <Hoc /> */}
+
+                <RoApp />
+                {/* <MyContext /> */}
+
+
+
 
 
 

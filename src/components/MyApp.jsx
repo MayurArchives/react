@@ -1,6 +1,6 @@
 import React from 'react'
 
-function App() {
+function MyApp() {
     return (
         <div>
             <BasicComponent />
@@ -10,4 +10,4 @@ function App() {
     )
 }
 
-export default App
+export default MyApp
