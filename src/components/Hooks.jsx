@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
 function Hooks() {
-    const [Count, setCount] = useState(0)
+    const [count, setCount] = useState(0)
     return (
         <div>
-            <button onClick={() => setCount(Count + 1)}>Count{Count}</button>
+            <button onClick={() => setCount(count + 2)} > count{count}</button>
 
         </div>
     )
