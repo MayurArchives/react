@@ -22,6 +22,7 @@ import React, { Component, PureComponent } from 'react'
 // import PortalsApp from './components/PortalsApp';
 // import SimpleComp from './components/SimpleComponent';
 import RoApp from './components/RoApp';
+import Hooks from './components/Hooks';
 // import MyContext from './components/MyContext';
 
 
@@ -61,8 +62,9 @@ class App extends Component {
                 <PortalsApp /> */}
                 {/* <Hoc /> */}
 
-                <RoApp />
+                {/* <RoApp /> */}
                 {/* <MyContext /> */}
+                <Hooks />
 
 
 
