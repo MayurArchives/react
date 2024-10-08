@@ -24,6 +24,7 @@ import React, { Component, PureComponent } from 'react'
 import RoApp from './components/RoApp';
 import Hooks from './components/Hooks';
 import HooksTwo from './components/HooksTwo';
+import HooksCounterThree from './components/HooksCounterThree';
 // import MyContext from './components/MyContext';
 
 
@@ -66,7 +67,8 @@ class App extends Component {
                 {/* <RoApp /> */}
                 {/* <MyContext /> */}
                 {/* <Hooks /> */}
-                <HooksTwo />
+                {/* <HooksTwo /> */}
+                <HooksCounterThree />
 
 
 
