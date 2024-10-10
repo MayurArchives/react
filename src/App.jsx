@@ -25,6 +25,7 @@ import RoApp from './components/RoApp';
 import Hooks from './components/Hooks';
 import HooksTwo from './components/HooksTwo';
 import HooksCounterThree from './components/HooksCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 // import MyContext from './components/MyContext';
 
 
@@ -68,7 +69,9 @@ class App extends Component {
                 {/* <MyContext /> */}
                 {/* <Hooks /> */}
                 {/* <HooksTwo /> */}
-                <HooksCounterThree />
+                {/* <HooksCounterThree /> */}
+                <HookCounterFour />
+
 
 
 
