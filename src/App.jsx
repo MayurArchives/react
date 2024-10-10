@@ -26,8 +26,8 @@ import Hooks from './components/Hooks';
 import HooksTwo from './components/HooksTwo';
 import HooksCounterThree from './components/HooksCounterThree';
 import HookCounterFour from './components/HookCounterFour';
-// import MyContext from './components/MyContext';
-
+import MyContext from './components/MyContext';
+import HooksCounterFive from './components/HooksCounterFive';
 
 
 class App extends Component {
@@ -70,7 +70,8 @@ class App extends Component {
                 {/* <Hooks /> */}
                 {/* <HooksTwo /> */}
                 {/* <HooksCounterThree /> */}
-                <HookCounterFour />
+                {/* <HookCounterFour /> */}
+                <HooksCounterFive />
 
 
 
