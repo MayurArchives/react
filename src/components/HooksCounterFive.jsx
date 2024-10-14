@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 function Hooks() {
     const [count, setCount] = useState(0)
     useEffect(() => {
-        document.title = `you click ${count}times`
+        document.title = `you click ${count}times   `
     })
     return (
         <div>
