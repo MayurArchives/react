@@ -29,6 +29,7 @@ import HookCounterFour from './components/HookCounterFour';
 import MyContext from './components/MyContext';
 import HooksCounterFive from './components/HooksCounterFive';
 import Fetchindata1 from './components/Fetchindata1';
+import Fetchindata2 from './components/Fetchindata2';
 
 
 class App extends Component {
@@ -73,7 +74,9 @@ class App extends Component {
                 {/* <HooksCounterThree /> */}
                 {/* <HookCounterFour /> */}
                 {/* <HooksCounterFive /> */}
-                <Fetchindata1 />
+                {/* <Fetchindata1 /> */}
+                <Fetchindata2 />
+
 
 
 
