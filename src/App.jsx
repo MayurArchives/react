@@ -31,6 +31,7 @@ import HooksCounterFive from './components/HooksCounterFive';
 import Fetchindata1 from './components/Fetchindata1';
 import Fetchindata2 from './components/Fetchindata2';
 import CounterUseReducer from './components/CounterUseReducer';
+import UseMemo from './components/UseMemo';
 
 
 class App extends Component {
@@ -77,7 +78,8 @@ class App extends Component {
                 {/* <HooksCounterFive /> */}
                 {/* <Fetchindata1 /> */}
                 {/* <Fetchindata2 /> */}
-                <CounterUseReducer />
+                {/* <CounterUseReducer /> */}
+                <UseMemo />
 
 
 
